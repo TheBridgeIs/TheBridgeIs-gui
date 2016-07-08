@@ -1,0 +1,29 @@
+{
+  "name": "thebridgeis-gui",
+  "version": "1.0.0",
+  "description": "Project for The Bridge",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --directory --startPath='src/index.html'",
+    "sass": "node-sass src/scss/main.scss src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBridgeIs/TheBridgeIs-gui.git"
+  },
+  "author": "Rosa Lopez Sanchez, Damian House",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBridgeIs/TheBridgeIs-gui/issues"
+  },
+  "homepage": "https://github.com/TheBridgeIs/TheBridgeIs-gui#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.13.0",
+    "node-sass": "^3.8.0"
+
+
+
+  }
+}

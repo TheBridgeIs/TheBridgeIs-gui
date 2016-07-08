@@ -1,0 +1,26 @@
+{
+  "name": "thebridgeis-gui",
+  "description": "Project for The Bridge",
+  "main": "index.html",
+  "authors": [
+    "Rosa Lopez Sanchez",
+    "Damian House"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TheBridgeIs/TheBridgeIs-gui",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^4.2.0",
+    "modernizr": "^3.3.1",
+    "jquery": "^3.1.0",
+    "angular": "^1.5.7",
+    "font-awesome": "^4.6.3"
+  }
+}
